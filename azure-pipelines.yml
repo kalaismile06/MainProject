@@ -7,7 +7,7 @@ trigger:
 - master
 
 schedules:
-  - cron: '0/2 * * * *'
+  - cron: '*/15 * * * *'
     displayName: Daily Check each 2 min
     branches:
       include:
