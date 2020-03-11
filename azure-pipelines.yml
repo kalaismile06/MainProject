@@ -8,10 +8,6 @@ trigger:
 
 schedules:
   - cron: '*/2 * * * *'
-branches:
-include:
-        - master
-always: 'true'
 
 pool:
   vmImage: 'ubuntu-latest'
