@@ -8,7 +8,11 @@ trigger:
 
 schedules:
   - cron: '*/2 * * * *'
-
+    displayName: Daily Check each 2 min
+    branches:
+      include:
+        - master
+    always: 'true'
 pool:
   vmImage: 'ubuntu-latest'
 
