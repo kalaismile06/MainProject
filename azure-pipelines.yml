@@ -6,13 +6,6 @@
 trigger:
 - master
 
-schedules:
-  - cron: '*/15 * * * *'
-    displayName: Daily Check each 2 min
-    branches:
-      include:
-        - master
-    always: 'true'
 pool:
   vmImage: 'ubuntu-latest'
 
