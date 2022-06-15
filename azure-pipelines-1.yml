@@ -9,7 +9,7 @@ trigger:
 pr:
   branches:
     include:
-      - test1
+      - test2
 
 pool:
   vmImage: ubuntu-latest
